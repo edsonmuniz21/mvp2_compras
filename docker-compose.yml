@@ -1,0 +1,10 @@
+services:
+  api_compras:
+    build: ./api_compras
+    ports:
+      - "5001:5000"
+  
+  api_clientes:
+    build: ./api_clientes
+    ports:
+      - "5002:5000"
